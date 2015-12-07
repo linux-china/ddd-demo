@@ -16,6 +16,7 @@ public class LoginEvent extends BaseDomainEvent<Account> {
     private boolean success;
 
     public LoginEvent() {
+        super();
     }
 
     public LoginEvent(String nick, Account account) {
